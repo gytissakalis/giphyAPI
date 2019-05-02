@@ -1,0 +1,39 @@
+.library-open-wrapper{
+    position: absolute;
+    top: 10%;
+    left: 40%;
+    margin-left: -50px; /* margin is -0.5 * dimension */
+    margin-top: -25px;
+}
+.Open-library-button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top:5px;
+    margin-bottom:5px;
+}
+.Giphy-image-holder{
+    display:block;
+    background-repeat:no-repeat;
+    background-size: 100% 100%;
+    width:500px;
+    height:400px;
+    margin-bottom: 5px!important;
+    margin: auto auto;
+    background-image: url("https://giphy.com/static/img/giphy_logo_square_social.png");
+}
+
+#Giphy-upload-field{
+    margin-top: 5px;
+}
+.giphy-api-input{
+    text-align: center;
+}
+.giphy-search-button-holder{
+    text-align: center;
+    margin-top:5px;
+}
+.Download-button{
+    margin-top:10px;
+    text-align: center;
+}
